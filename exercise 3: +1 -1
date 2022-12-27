@@ -1,3 +1,0 @@
-a=int(input('digite um numero:'))
-print('analisando {},seu antecessor é {} e seu successor é {}'.format(a,(a-1),(a+1)))
-
