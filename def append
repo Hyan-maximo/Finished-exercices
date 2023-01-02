@@ -1,0 +1,15 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Jan  2 18:32:05 2023
+
+@author: Hyan
+"""
+
+def fun(arg1,*arg2):
+    print(arg1)
+    for i in arg2:
+        print(i)
+    return
+
+print(fun(100))
+        
