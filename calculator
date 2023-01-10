@@ -1,0 +1,48 @@
+from time import sleep
+
+while True:
+    print(30*'-')
+    sleep(0.5)
+    print('''
+          1 - Sum
+          2 - Subtract
+          3 - Multiply
+          4 - Divide
+          5 - Exit
+          ''')
+    sleep(0.5)
+    print(30*'-')
+    sleep(0.5)
+    option =int(input('Select the desired option: '))
+    if option == 5:
+        print(30*'-')
+        sleep(0.5)
+        print('see you later')
+        break
+    a = int(input('1° number: '))
+    b = int(input('2° number: '))
+    
+    if option == 1:
+        print(30*'-')
+        sleep(0.5)
+        print(f'{a}+{b} = {a+b} ')
+        sleep(0.5)
+    elif option == 2:
+        print(30*'-')
+        sleep(0.5)
+        print(f'{a}-{b} = {a-b} ')
+        sleep(0.5)
+    elif option == 3:
+        print(30*'-')
+        sleep(0.5)
+        print(f'{a}*{b} = {a*b} ')
+        sleep(0.5)
+    elif option == 4:
+        print(30*'-')
+        sleep(0.5)
+        print(f'{a}/{b} = {a/b} ')
+        sleep(0.5)
+    else:
+        print('undentified option, try again')
+        
+        
